@@ -1,3 +1,3 @@
-$('#menu-temas').html('<div class="menu-temas-interno"> <div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98201">2.3. Sección I</a> </div></div><div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98203">2.3. Sección II</a> </div></div></div>');
+$('#menu-temas').html('<div class="menu-temas-interno"> <div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=98201">2.3. Sección I</a> </div></div><div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=98203">2.3. Sección II</a> </div></div></div>');
 //
-$('#volver').html('<a class="boton-volver" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98137">Ítems Módulo 2 - Tema 3 |</a>')
+$('#volver').html('<a class="boton-volver" href="//ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=98137">Ítems Módulo 2 - Tema 3 |</a>')

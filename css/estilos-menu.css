@@ -138,7 +138,7 @@
 }
 
 #cssmenu ul ul ul {
-	margin-left:100%;
+	margin-left:100% !important;
 	top:0;
 }
 
