@@ -1,0 +1,143 @@
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-modulo-dos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+<script src="/diseno/sitio_moodle/lightbox/lib/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+<!-- -->
+<!-- Add fancyBox -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/jquery.fancybox.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- -->
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-buttons.js" type="text/javascript"></script>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+<!-- -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+<!-- -->
+<!-- ================== script ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso" id="modulodos">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-modulo-2-tema-3.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header class="wow animated fadeIn">2.3. Tablas y Gráficos Para Describir Variables - Sección II</header>
+	</div>
+	
+	<div class="contenido wow animated fadeIn">
+		<h4>Polígono de frecuencias:</h4>
+		
+		<p>Comparte características con el histograma: emplea los mismos ejes, es construido con un punto en el centro y sobre el eje superior de cada intervalo de modo que su altura sea igual a la frecuencia (absoluta o relativa) de la categoría representada por cada intervalo, luego esos puntos se unen con líneas rectas, la frecuencia de las observaciones está representada por el área dentro de la figura conformada por la unión de los puntos. Esta gráfica es de gran utilidad ya que el área bajo la curva representa el total de las observaciones (el 100% o en términos de integrales, es una integral con valor 1) y cubre entonces todos los valores probables de la variable:</p>
+		
+		<figure class="galeria wow animated fadeInUp">
+			<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica8.gif" title="Polígono de frecuencias">
+				<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica8.gif" alt="Polígono de frecuencias" />
+			</a>
+			<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+		</figure>
+		
+		<p>A partir del polígono de frecuencia se puede construir el Polígono de frecuencias acumuladas partiendo del punto central en el límite superior del primer intervalo que se coloca en el siguiente intervalo y sobre él, el área correspondiente al segundo intervalo y así sucesivamente, los puntos resultantes se unen con líneas rectas.</p>
+		
+		<figure class="galeria wow animated fadeInUp">
+			<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica9.gif" title="Polígono de frecuencias">
+				<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica9.gif" alt="Polígono de frecuencias" />
+			</a>
+			<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+		</figure>
+		
+		<p>Esta gráfica se emplea para comparar conjuntos de datos, obtener los percentiles de un conjunto de datos (el percentil 70 es un valor mayor o igual a 70% de las observaciones y menor o igual al 30% restante), los percentiles describen la forma de una distribución, si las distancias de los percentiles 25 y 75 al 50 son las mismas, la distribución es simétrica (la distribución tiene la misma forma a ambos lados del percentil 50). Si hay observaciones que se acumulan a un lado del punto medio la distribución es asimétrica, si son menores la distribución es asimétrica a la izquierda y caso contrario asimétrica a la derecha.</p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<h4>Diagrama de caja:</h4>
+			
+			<p>Presenta un resumen de los datos, requiere un solo eje, se construye a partir de los cuartiles (percentiles 0, 25, 50, 75 y 100) permite visualizar el conjunto de datos. Se compone de un rectángulo en cuyo centro está el p50 (la mediana)  denominado la caja, y dos brazos o bigotes. Suministra información sobre los cuartiles Q1 (p25), Q2 (p50) y Q3 (p75), sobre la existencia o no de valores atípicos y simetría de la distribución. Se necesita encontrar la mediana para luego encontrar los 2 cuartiles restantes. Debe tener en cuenta que los llamados valores adyacentes son las observaciones más extremas y contienen cerca del 99% de los datos.</p>
+			
+			<figure class="galeria wow animated fadeInUp">
+				<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica10.gif" title="Diagrama de caja">
+					<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica10.gif" alt="Diagrama de caja" />
+				</a>
+				<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+			</figure>
+		</section>
+		
+		<h4>Gráficos de dispersión:</h4>
+		
+		<p>En dos coordenadas describen el tipo de relación entre dos variables, cada punto de la gráfica representa el valor de dos variables de un mismo sujeto con la escala marcada en cada uno de los dos ejes X y Y: </p>
+		
+		<figure class="galeria wow animated fadeInUp">
+			<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica11.gif" title="Gráficos de dispersión">
+				<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica11.gif" alt="Gráficos de dispersión" />
+			</a>
+			<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+		</figure>
+		
+		<p>En el caso del ejemplo, se aprecia que a medida que aumenta X aumenta Y, siendo entonces una relación directamente proporcional, lo contrario sería inversamente proporcional, la línea roja representa una recta que representa esta relación. Este concepto es el inicio del mecanismo para medir y luego evaluar la correlación entre variables, es el origen de los estudios de correlación, tema de otros cursos.</p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<h4>Gráficas de líneas:</h4>
+			
+			<p>Presenta la relación entre variables continuas, como en el anterior cada punto en la gráfica representa un par de valores pero los puntos adyacentes se unen con una línea recta casi siempre la escala sobre el eje horizontal representa el tiempo por lo que esta gráfica representa cambio en el tiempo (lo que la hace ideal para tasas), permite comparar el comportamiento de varias variables al colocarlas en el eje Y. </p>
+			
+			<figure class="galeria wow animated fadeInUp">
+				<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica12.gif" title="Gráficas de líneas">
+					<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica12.gif" alt="Gráficas de líneas" />
+				</a>
+				<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+			</figure>
+		</section>
+		
+	</div>
+	
+	<div id="menu-temas" class="wow animated fadeInUp"></div>
+	
+	<div id="volver" class="volver wow animated fadeInUp"></div>
+	
+	<div id="footer" class="wow animated fadeIn"></div>
+	
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/modulo2/menu-modulo-dos-tema-tres-interno.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->
+
+<!-- ================== script ================== -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#single_1").fancybox({
+		helpers: {
+			title : {
+				type : 'float'
+			}
+		}
+	});
+});
+</script>
+<!-- ================== fin script ================== -->

@@ -1,0 +1,79 @@
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-modulo-dos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso" id="modulodos">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-modulo-2-tema-4.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header class="wow animated fadeIn">2.4.2. Variables aleatorias: discretas y continuas. Valor esperado y varianza</header>
+	</div>
+	
+	<div class="contenido wow animated fadeIn">
+		<p>Como hemos visto cualquier característica medible de un objeto de estudio se llama variable, cuando esta variable toma valores cualquiera de forma tal que este valor se pueda producir por azar se llama variable aleatoria, recuerde que una variable es discreta cuando solamente puede tomar valores enteros y continua cuando puede tomar cualquier valor en un intervalo específico. Dependiendo del tipo y del número de mediciones la variable toma una distribución específica denominada Distribución de Probabilidad porque la teoría de probabilidades permite describir el comportamiento de una variable aleatoria, si es discreta permite conocer los valores posibles junto con la probabilidad de que cada uno ocurra, si es continua permite conocer la probabilidad asociada a intervalos de valores específicos.</p>
+		
+		<p>Las Propiedades de una variable discreta son: a. Las probabilidades asociadas a cada uno de los valores que toma una variable  son mayores o iguales a cero y menores o iguales a 1 (cada uno de los valores corresponde a su frecuencia relativa) y b. La sumatoria de las probabilidades asociadas a cada uno de los valores que puede tomar una variable es 1 porque todos los valores posibles toman todas las posibilidades es decir, son exhaustivos. Así se puede saber que valores ocurren con más frecuencia que otros.</p>
+		
+		<p>Las distribuciones de probabilidad se representan con una fórmula matemática o con una gráfica en donde el área definida por la función de densidad y su gráfica correspondiente es igual a 1 (cubre todas las probabilidades) Las distribuciones de probabilidad se describen con una medida de tendencia central y una de dispersión: el valor promedio que toma una variable aleatoria se denomina media poblacional (es también el valor esperado), la dispersión de los valores relativos a esta es la varianza poblacional y su raíz cuadrada es la desviación estándar poblacional.</p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<p>La distribución binomial (o de Bernoulli) es un caso particular de probabilidad de variable aleatoria discreta, por sus aplicaciones es posiblemente, la más importante; corresponde a la realización de un experimento aleatorio que cumple con las siguientes condiciones:</p>
+			
+			<ol>
+				<li>Al realizarlo sólo son posibles dos resultados: el suceso a, llamado éxito a la que se le asigna el valor 1, y el suceso b , llamado fracaso a la que se le asigna el valor 0, es decir es una variable binaria o dicotómica, los han de ser resultados excluyentes y exhaustivos.</li>
+				<li>Al repetirlo, el resultado es independiente de los resultados obtenidos anteriormente.</li>
+				<li>La probabilidad del suceso a es constante, es decir, no varía de una prueba del experimento a otra.</li>
+				<li>En cada experimento se realizan n pruebas idénticas.</li>
+			</ol>
+			
+			<p>Todo experimento que tenga estas características sigue el modelo de la distribución binomial o distribución de Bernoulli. En este caso las probabilidades asociadas se pueden formular así: p(Y=0) = 1-p, esta ecuación describe totalmente las probabilidades de distribución de la variable dicotómica Y. Los valores posibles que puede tomar una variable se encuentran en las tablas de distribución binomial.</p>
+		</section>
+		
+		<p>Si hay una serie de n ensayos independientes que cumplan con los requisitos para ser una distribución binomial (por lo tanto también una serie n de resultados), cada uno con una probabilidad de éxito p el número total de éxitos es una variable aleatoria binomial, los valores n y p son los parámetros de la distribución, la media de la distribución es np y la varianza np(1-p), este valor es mayor cuando p es igual a 0.5 y disminuye según se aproxime a 0 o a 1. Cuando p es muy grande o muy pequeña la variabilidad entre los resultados es menor entonces si la mitad de la población toma el valor 0 (y la otra el 1) es muy difícil predecir cualquier resultado.</p>
+		
+		<p>Cuando n es grande y p pequeña, los valores de probabilidad son muy parecidos y a esa probabilidad se llega usando la fórmula de Poisson que se usa para describir sucesos discretos que ocurran con poca frecuencia, (piense en enfermedades con prevalencia menor de 10%), la distribución de Poissson implica:</p>
+		
+		<ol>
+			<li>La probabilidad de que ocurra un suceso en un intervalo es proporcional a la amplitud de dicho intervalo.</li>
+			<li>No hay límite al número de experimentos (número infinito</li>
+			<li>Los sucesos ocurren independientemente dentro del intervalo como dentro de intervalos consecutivos.</li>
+		</ol>
+		
+		<p>La media y la varianza de esta distribución son iguales y se representan con un solo parámetro:  (sigma).</p>
+		
+	</div>
+	
+	<div id="menu-temas" class="wow animated fadeInUp"></div>
+	
+	<div id="volver" class="volver wow animated fadeInUp"></div>
+	
+	<div id="footer" class="wow animated fadeIn"></div>
+	
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/modulo2/menu-modulo-dos-tema-cuatro-interno.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->

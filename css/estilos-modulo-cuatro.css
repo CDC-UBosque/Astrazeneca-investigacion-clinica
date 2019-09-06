@@ -1,0 +1,95 @@
+/* ==========================================
+	CAMBIO COLOR MODULO 1
+========================================== */
+#modulocuatro.contenedor-curso .cabezote header{
+    border-color: #00C059 ;
+    background: #00C059 ;
+    color: #fff;
+}
+
+#modulocuatro.contenedor-curso .menu-temas-interno{
+  border-color:#00C059   ;
+}
+
+#modulocuatro.contenedor-curso .menu-temas-interno .botones-tema{
+      border: none;
+    background: #00C059               url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulocuatro.contenedor-curso .menu-temas-interno .botones-tema:hover {
+    background: #00A04A url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulocuatro.contenedor-curso .menu-temas-interno .botones-tema .boton{
+  color:#fff;
+}
+
+#modulocuatro.contenedor-curso .boton-entrar{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #07b676;
+	background-repeat: no-repeat;
+	background-position: 90%;
+	color: #ffffff;
+}
+
+#modulocuatro.contenedor-curso .boton-entrar:hover{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #05925E;
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+
+#modulocuatro.contenedor-curso .cabezote header{
+	border-top: 2px solid #07b676;
+}
+
+#modulocuatro.contenedor-curso .menu-temas .titulo{
+	border-bottom: 1px solid #07b676;
+}
+
+#modulocuatro.contenedor-curso .menu-temas .botones-tema .info .titulo{
+	border-bottom: none;
+}
+
+#modulocuatro.contenedor-curso .boton-volver{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #07b676;
+	background-repeat: no-repeat;
+	background-position: 97%;
+}
+
+#modulocuatro.contenedor-curso .boton-volver:hover{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #05925E;
+	background-repeat: no-repeat;
+	background-position: 97%;
+}
+
+#modulocuatro.contenedor-curso .menu-temas-interno{
+		text-align: center;
+		border-top: 1px solid #07b676;
+		border-bottom: 1px solid #07b676;
+		padding: 1rem 0;
+		margin: 2rem 0;
+		display: block;
+	}
+	
+#modulocuatro.contenedor-curso .tabla{
+	border-color: #07b676;
+}
+
+#modulocuatro.contenedor-curso .tabla .titulo{
+	background: #07b676;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+#modulocuatro.contenedor-curso .tabla td{
+	border-color: #07b676;
+}
+
+#modulocuatro.contenedor-curso .contenido .resaltado-texto {
+    border: 10px solid #01c059;
+}

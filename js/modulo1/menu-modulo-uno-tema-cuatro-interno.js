@@ -1,0 +1,3 @@
+$('#menu-temas-interno').html('<div class="menu-temas-interno"><div class="botones-tema"><div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=96067">1.4.1. Contenido</a></div></div><div class="botones-tema"><div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=96068">1.4.2. Bibliografía básica</a></div></div></div>')
+//
+$('#volver').html('<a class="boton-volver" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=95884">Volver a Módulo 1 - Tema 4 |</a>')

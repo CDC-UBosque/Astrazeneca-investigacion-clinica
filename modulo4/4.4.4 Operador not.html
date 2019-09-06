@@ -1,0 +1,112 @@
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-modulo-cuatro.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso" id="modulocuatro">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-modulo-4.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header class="wow animated fadeIn">4.4.4. Operador NOT</header>
+	</div>
+	
+	<div class="contenido wow animated fadeIn">
+		
+		<p>Puede ocurrir que una vez generada la búsqueda final, aparezcan trabajos que incluyen algunos términos que no obedecen a la estrategia de búsqueda planteada. Es en este escenario donde el operador NOT cobra importancia, puesto que permitirá excluir artículos no deseados. </p>
+		
+		<p>Podemos ilustrar este escenario con un ejemplo: en nuestro ejercicio anterior recuperamos 101 artículos, pero suponga que al encontrarnos en la lectura de los títulos y los resúmenes, hemos identificado que muchos trabajos contemplan el consumo de cigarrillo y no estamos interesados en este tipo de exposición. Para este caso la mejor alternativa sería excluirlos. El procedimiento consiste en adicionar a la búsqueda que hemos realizado el término que deseamos excluir, vinculándolo con el operador NOT. El programa entenderá que usted desea esa búsqueda pero excluyendo los trabajos que hayan indizado la palabra que usted desea excluir. Note que cualquier estrategia que busca mejorar la especificidad, puede ir en detrimento de la sensibilidad, es decir que con este proceso se corre el riesgo de excluir trabajos de interés. La siguiente figura ilustra el procedimiento y su resultado:</p>
+		
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="tabla wow animated fadeInRight">
+			<tbody>
+				<tr>
+					<td class="titulo">Search</td>
+					<td class="titulo">Add to builder</td>
+					<td class="titulo">Query</td>
+					<td class="titulo">Items found</td>
+				</tr>
+				<tr>
+					<td>#20</td>
+					<td>Add</td>
+					<td>Search (#15) NOT #19</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>#19</td>
+					<td>Add</td>
+					<td>Search smoking</td>
+					<td>175265</td>
+				</tr>
+				<tr>
+					<td>#15</td>
+					<td>Add</td>
+					<td>Search ((((("mortality"[Subheading])) OR ("Incidence"[Mesh]))) AND ("Alcohol Drinking"[Mesh])) And ("cohort studies"[MeSH Terms] OR cohort study [Text Word])) AND ((("Inferior Wall Myocardial Infarction"[Mesh] OR "Anterior Wall Myocardial Infarction"[Mesh] OR "Myocardial Infarction"[Mesh] OR "Myocardial Ischemia"[Mesh] OR "Coronary Disease"[Mesh] OR "Acute Coronary Syndrome"[Mesh] OR "Coronary Occlusion"[Mesh] OR "Coronary Thrombosis"[Mesh])) OR ("Coronary heart disease" OR "Acute Myocardial Infarction" OR "Acute coronary event")) AND ((English[lang] OR Spanish[lang] AND "last 10 years"[PDat])</td>
+					<td>101</td>
+				</tr>
+				<tr>
+					<td class="referencia" colspan="4">Figura 5. Uso del operador boléano NOT.</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p>Después de incluir el término NOT smoking, pasamos de 101 artículos, a 50<sup>1</sup>.Estos deberán ser objeto de un proceso de revisión rápida, leyendo los títulos y los resúmenes. Producto de este ejercicio deben resultar los documentos que serán seleccionados para lectura en texto completo. La primera página de nuestra búsqueda arrojó varios artículos relevantes, de ellos seleccionamos para efectos de este ejercicio académico uno de ellos, correspondiente a una revisión sistemática de estudios de cohorte (1): </p>
+		
+		<p><a href="//www.bmj.com/highwire/filestream/376294/field_highwire_article_pdf/0.pdf" target="_blank">//www.bmj.com/ highwire/filestream/ 376294/field_highwire _article_pdf/0.pdf</a></p>
+		
+		<p>Una vez se han identificado los artículos que usted considera dan respuesta a su pregunta, debe proceder a la recuperación de ellos en texto completo. A pesar de que ha venido creciendo la cultura de “Open Acces”, aún no es suficiente y un volumen importante de publicaciones no permite el acceso libre. En la actualidad esta situación no representa un problema mayor, ya que la mayoría de las universidades pagan por los accesos a diferentes bases de datos que reúnen la mayor parte de las revistas científicas de las áreas de la salud. Si finalmente no logra conseguir el artículo, no le queda más remedio que comprarlo por un precio que oscila alrededor de los US $45. Sin embargo permítame ofrecerle un pequeño truco; la mayoría de los investigadores están interesados en que sus trabajos sean conocidos alrededor del mundo. En consecuencia el 99% de ellos estarían en disposición de hacerle llegar el artículo original si usted se comunica a través de correo electrónico, expresando su interés académico y científico en el tema. </p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<h4>Ejercicio sugerido 2.</h4>
+			
+			<p>Seleccione una de las preguntas planteadas y desarrolle los siguientes puntos:</p>
+			
+			<ul>
+				<li>Construya la búsqueda a partir de cada uno de los elementos de la estrategia PICO.</li>
+				<li>Presente los términos MeSH y No MeSH para cada uno de los elementos de la estrategia PICO.</li>
+				<li>Construya un cuadro con el número de artículos identificado para cada uno de los elementos de la estrategia PICO.</li>
+				<li>Presente el número total de artículos identificado.</li>
+				<li>Seleccione el artículo elegido para dar respuesta a la pregunta propuesta y presente la referencia completa y el sitio donde se encuentra disponible.</li>
+			</ul>
+		</section>
+		
+		<hr>
+		<ol>
+			<li>El dato puede variar de acuerdo con la fecha de consulta.</li>
+		</ol>
+		
+		<section class="resaltado-texto menu-temas-interno wow animated fadeInUp" id="interno1"></section>
+		
+	</div>
+	
+	<div id="menu-temas-interno" class="wow animated fadeInUp"></div>
+	
+	<div id="volver" class="volver wow animated fadeInUp"></div>
+	
+	<div id="footer" class="wow animated fadeIn"></div>
+	
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/modulo4/menu-modulo-cuatro-interno-2.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->

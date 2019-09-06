@@ -1,0 +1,95 @@
+/* ==========================================
+	CAMBIO COLOR MODULO 1
+========================================== */
+#modulodos.contenedor-curso .cabezote header{
+    border-color: #E7830B ;
+    background: #E7830B ;
+    color: #fff;
+}
+
+#modulodos.contenedor-curso .menu-temas-interno{
+  border-color:#E7830B ;
+}
+
+#modulodos.contenedor-curso .menu-temas-interno .botones-tema{
+      border: none;
+    background: #E7830B             url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulodos.contenedor-curso .menu-temas-interno .botones-tema:hover {
+    background: #ffa232 url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulodos.contenedor-curso .menu-temas-interno .botones-tema .boton{
+  color:#fff;
+}
+
+#modulodos.contenedor-curso .boton-entrar{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #f18500;
+	background-repeat: no-repeat;
+	background-position: 90%;
+	color: #ffffff;
+}
+
+#modulodos.contenedor-curso .boton-entrar:hover{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #ffb86b;
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+
+#modulodos.contenedor-curso .cabezote header{
+	border-top: 2px solid #f18500;
+}
+
+#modulodos.contenedor-curso .menu-temas .titulo{
+	border-bottom: 1px solid #f18500;
+}
+
+#modulodos.contenedor-curso .menu-temas .botones-tema .info .titulo{
+	border-bottom: none;
+}
+
+#modulodos.contenedor-curso .boton-volver{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #f18500;
+	background-repeat: no-repeat;
+	background-position: 97%;
+}
+
+#modulodos.contenedor-curso .boton-volver:hover{
+	background: url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #ffb86b;
+	background-repeat: no-repeat;
+	background-position: 97%;
+}
+
+#modulodos.contenedor-curso .menu-temas-interno{
+		text-align: center;
+		border-top: 1px solid #f18500;
+		border-bottom: 1px solid #f18500;
+		padding: 1rem 0;
+		margin: 2rem 0;
+		display: block;
+	}
+	
+#modulodos.contenedor-curso .tabla{
+	border-color: #f18500;
+}
+
+#modulodos.contenedor-curso .tabla .titulo{
+	background: #f18500;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+#modulodos.contenedor-curso .tabla td{
+	border-color: #f18500;
+}
+
+#modulodos.contenedor-curso .contenido .resaltado-texto{
+border: 10px solid #e7830b;
+}

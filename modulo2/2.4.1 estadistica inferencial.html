@@ -1,0 +1,182 @@
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-modulo-dos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+<script src="/diseno/sitio_moodle/lightbox/lib/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+<!-- -->
+<!-- Add fancyBox -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/jquery.fancybox.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- -->
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-buttons.js" type="text/javascript"></script>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+<!-- -->
+<p><link rel="stylesheet" href="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" /></p>
+<script src="/diseno/sitio_moodle/lightbox/source/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+<!-- -->
+<!-- ================== script ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso" id="modulodos">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-modulo-2-tema-4.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header class="wow animated fadeIn">2.4.1. Estadística Inferencial</header>
+	</div>
+	
+	<div class="contenido wow animated fadeIn">
+		<p>Hasta ahora, hemos revisado temas referentes a un grupo de sujetos que esperamos represente adecuadamente a una población grande porque lo que realmente interesa es en qué medida podemos generalizar los estadísticos de la muestra a la población general, dicho de otro modo: será que lo que se encuentra en la muestra es verdadero para la población? Si por ejemplo, en un Ensayo Clínico con un nuevo hipoglicemiante en 300 sujetos diabéticos tipo II, el grupo investigador encuentra que mejora la glicemia comparado con el medicamento estándar en un 40% ocurrirá la misma mejoría en la población de diabéticos tipo II a nivel mundial, continental, nacional?</p>
+		
+		<p>Los valores que se obtienen en la muestra se llaman estadísticos y sirven para estimar las cifras de la población (al proceso se lo conoce como estimación de parámetros, generalización o inferencia estadística) (en las fórmulas el estadístico se representa con una letra romana p.e. desviación estandar :  sigma = σ, y el parámetro  con letras griegas p.e.  theta =Θ), hay tres métodos de estimar un parámetro:</p>
+		
+		<ol>
+			<li>Puntual: Afirma que el valor del estadístico es exactamente igual al del parámetro, es muy riesgoso porque no da ninguna certeza sobre la afirmación.</li>
+			<li>Prueba de hipótesis: Permite conocer la probabilidad de que los estadísticos encontrados hayan sido encontrados por simple azar, con lo cual los datos no son fiables y por último:</li>
+			<li>Intervalos de Confianza: Informan con un porcentaje de seguridad entre que valores se encuentra el parámetro.</li>
+		</ol>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<p>Los métodos usados son los dos últimos pero requieren de unos conceptos básicos de probabilidades:</p>
+			
+			<p>La probabilidad es la posibilidad que existe entre varias posibilidades de que un hecho se produzca, mide la frecuencia con la cual se obtiene un resultado al realizar un experimento sobre el cual se conocen todos los resultados posibles. </p>
+			
+			<p>Un evento es el elemento básico sobre el cual se aplica la probabilidad, resultado de una observación o de un experimento aleatorio (en teoría de probabilidades un experimento ocurre cada vez que se realiza un evento). Un evento sucede o no sucede, los eventos se representan con letras mayúsculas; el evento que contiene a ningún resultado del espacio muestral se llama evento imposible o nulo, cuando ocurre siempre se llama seguro. Dos eventos son excluyentes si no pueden ocurrir de manera simultánea. La probabilidad de un evento es la proporción de veces (o la frecuencia relativa) que ocurre en una cantidad de eventos repetidos en prácticamente las mismas condiciones. El espacio muestral es el conjunto de todos los posibles resultados individuales de un experimento aleatorio.</p>
+			
+			<p>Un experimento aleatorio es aquel  en que en las mismas condiciones, pueden presentarse eventos diferentes, no es posible predecir o reproducir el resultado exacto de uno de ellos en particular porque puede producirse ese resultado u otros muchos p. e.: al tomar muestras sanguíneas de 10 sujetos escogidos al azar con posibilidad de que cada uno ingrese en varias muestras entre 1000 personas, encontrar uno de los diez diabéticos. En contraposición al determinista donde el conocer todos los factores de un experimento se predice exactamente lo que ocurrirá p. e.: conocer la altura desde la que se lanza un paracaidista permite saber exactamente el tiempo que tardará en llegar al  piso. En salud prácticamente todos los eventos son aleatorios.</p>
+		</section>
+		
+		<p>Los eventos permiten efectuar una serie de operaciones, tenga en cuenta que el valor numérico de una probabilidad se encuentra entre 0 (no ocurre nunca) y 1 (ocurre siempre): </p>
+		
+		<ol>
+			<li>Cuando dos eventos ocurren simultáneamente es decir, A y B en un mismo espacio muestral (intersección) se denota como AB, el valor de la probabilidad se obtiene multiplicando la probabilidad de los dos eventos. </li>
+			<li>Cuando dos eventos ocurren individualmente o en conjunto (unión) en un espacio muestral (unión: A B) esto es A o B y A y B el valor de la probabilidad se obtiene sumando la probabilidad de A o B, a ese resultado se resta la de A y B y ese residuo se resta de la probabilidad total del espacio muestral.</li>
+		</ol>
+		
+		<p>Un mecanismo sencillo para entender estos conceptos (que provienen de la teoría de conjuntos) es el diagrama de Venn:</p>
+		
+		<figure class="galeria wow animated fadeInUp">
+			<a id="single_1" href="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica13.gif" title="Diagrama de Venn">
+				<img src="/diseno/cursos/Investigacion-Clinica/imagenes/graficas/modulo2-grafica13.gif" alt="Diagrama de Venn" />
+			</a>
+			<p style="width:inherit;"><em>(haz click sobre la imagen para verla en detalle)</em></p>
+		</figure>
+		
+		<p>El complemento de un evento A se representa por Ā y es el evento que contiene todos los elementos que no están en A, dos eventos excluyentes son mutuamente complementarios, la probabilidad de que ocurra un evento seguro es 1 siendo esta probabilidad descrita como el resultado de la sumatoria de la probabilidad de que ocurra el evento (p) más la probabilidad de que no ocurra (q), es decir 1 = p + q. Esta ecuación es clave para entender la famosa prueba de hipótesis y el ODDS.</p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<p>Ahora revisemos los conceptos de muestreo porque necesitamos conocer la probabilidad de que el evento de interés esté en la muestra, esta probabilidad debe ser la misma para todos los sujetos de la población o universo que es el conjunto total de individuos, objetos o medidas con características comunes observables en un lugar y en un momento determinado. Cuando se lleva a cabo alguna investigación debe de tenerse en cuenta algunas características esenciales al seleccionar la población:</p>
+			
+			<ol>
+				<li><strong>Homogeneidad:</strong> todos los miembros de la población han de tener las mismas características según las variables que se vayan a considerar en la investigación.</li>
+				<li><strong>Tiempo:</strong> Período de tiempo donde se ubicará la población de interés. Determinar si el estudio es del momento presente o si se va a estudiar a una población de cinco años atrás o si se van a entrevistar personas de diferentes generaciones. </li>
+				<li><strong>Espacio:</strong> Lugar donde se ubica la población de interés. Como un estudio no puede ser muy abarcador y por necesidades de tiempo y  ahorro de recursos hay que limitarlo a un área o comunidad en específico.</li>
+				<li><strong>Cantidad:</strong> El tamaño de la población es sumamente importante porque ello determina o afecta al tamaño de la muestra que se vaya a seleccionar, además que la falta de recursos y tiempo también limita el tamaño de población a investigar.</li>
+			</ol>
+			
+			<p>La muestra es un subconjunto fielmente representativo de la población. El proceso para obtener una muestra se denomina muestreo. Hay diferentes tipos de muestreo. El tipo de muestra que se seleccione dependerá de la calidad y cuán representativo requiera sea el estudio de la población. Una buena muestra implica que cada sujeto tenga una misma probabilidad de entrar en ella y que esa probabilidad sea conocida previamente. En la muestra se obtienen los estadísticos que por medio de los procesos de inferencia permiten estimar los parámetros este proceso utiliza teoría de probabilidades (de hecho la p que casi siempre se publica como p=0.05 es una probabilidad)</p>
+		</section>
+		
+		<p>Regresemos a la probabilidades, un asunto importante es determinar la probabilidad de que ocurra un evento B cuando conocemos la probabilidad de que ocurra un evento A, el tema se llama Probabilidad condicional, es la probabilidad de que ocurra un evento A, sabiendo que también sucede otro evento B, se escribe P(A|B), (probabilidad de A dado B). No tiene por qué haber una relación causal o temporal entre A y B. A puede preceder a B en el tiempo, sucederlo u ocurrir simultáneamente. A puede causar B, viceversa o pueden no tener relación causal. Las relaciones causales o temporales son nociones que no pertenecen al ámbito de la probabilidad, desempeñan un papel o no dependiendo de la interpretación que se dé a los eventos. Este tema es clave para entender cómo se evalúa la existencia de relaciones entre variables  categóricas o cualitativas, esa relación se evalúa en tablas de contingencia (mencionada previamente).</p>
+		
+		<p>Esta tabla de correlación de 2 x 2 relaciona dos variables cualitativas dicotómicas (es decir presencia ausencia, si o no, enfermo o sano,  existe mejoría o no existe), excluyentes y complementarias lo importante es saber si son independientes o no (es decir si existe una relación entre ellas), los valores centrales A, B, C y D (es decir la presencia de la condición y del factor asociado o A, la ausencia de la condición en presencia del factor asociado o B, La ausencia del factor asociado en presencia de la condición o C y la ausencia de la condición en ausencia del factor asociado o D) se llaman condicionales (en naranja en la gráfica) y las sumatorias de denominan marginales (en azul). Que esperaría encontrar en una tabla de este tipo (sin colocar números) en el caso del hábito de fumar durante 40 años y la presencia de EPOC (es decir, presencia y ausencia de cada uno de ellos?</p>
+		
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="tabla wow animated fadeInRight">
+			<tbody>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+					<td colspan="2" class="referencia">CONDICION</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+					<td class="titulo">PRESENCIA</td>
+					<td class="titulo">AUSENCIA</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td rowspan="2">FACTOR ASOCIADO</td>
+					<td class="titulo">PRESENCIA</td>
+					<td class="referencia">A</td>
+					<td class="referencia">B</td>
+					<td class="referencia">A + B</td>
+				</tr>
+				<tr>
+					<td class="titulo">AUSENCIA</td>
+					<td class="referencia">C</td>
+					<td class="referencia">D</td>
+					<td class="referencia">C + D</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+					<td class="referencia">A + C</td>
+					<td class="referencia">B + D</td>
+					<td class="referencia">A + B + C + D</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<p>En la tabla la distribución de frecuencias conjuntas y marginales puede ser absoluta o relativa, cuando la frecuencia de A en presencia y en ausencia de B es la misma se habla de independencia, es decir la presencia de B no tiene nada que ver con la presencia de A (al menos en la muestra en que se realice una investigación determinada), para que esto ocurra debe cumplirse:</p>
+			
+			<ol>
+				<li>Siempre que hay independencia y solamente en su presencia la probabilidad marginal de A (es decir, la probabilidad de A o  p(A) o  p(A + B) y p(A + C)) es igual a la probabilidad de A en presencia y en ausencia de B, es decir p(A) es igual a la probabilidad de A dado B y a la probabilidad de A en ausencia de B.</li>
+				<li>Siempre que hay independencia y solamente en su presencia la probabilidad de A y B es decir p(A y B) es igual a la probabilidad marginal de A multiplicada por la probabilidad marginal de B o sea la frecuencia relativa de la presencia de la condición y la frecuencia relativa del factor asociado es igual a la frecuencia relativa con la que se da cada una de ellas.</li>
+			</ol>
+		</section>
+		
+		<p>Una aplicación importante del cálculo de probabilidades es el Teorema de Bayes que se utiliza cuando se conoce la frecuencia marginal de la variable A y las de la variable B en presencia y en ausencia de A y se requiere conocer la marginal de B y la de A en presencia y en ausencia de B que permite diferenciar la probabilidad de tener un evento solo (probabilidad a priori) y la probabilidad de tenerla en presencia de otra (probabilidad a posteriori) en salud su utilidad en evaluación de pruebas (sensibilidad, especificidad etc.) es clara.</p>
+	</div>
+	
+	<div id="menu-temas" class="wow animated fadeInUp"></div>
+	
+	<div id="volver" class="volver wow animated fadeInUp"></div>
+	
+	<div id="footer" class="wow animated fadeIn"></div>
+	
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/modulo2/menu-modulo-dos-tema-cuatro-interno.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->
+
+<!-- ================== script ================== -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#single_1").fancybox({
+		helpers: {
+			title : {
+				type : 'float'
+			}
+		}
+	});
+});
+</script>
+<!-- ================== fin script ================== -->

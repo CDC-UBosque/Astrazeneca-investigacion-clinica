@@ -1,0 +1,977 @@
+@import "https://fonts.googleapis.com/css?family=Amiri:400,400italic,700,700italic|Catamaran:400,100,200,300,500,600,700,800,900";
+
+/* ==========================================
+	ELEMENTOS DE MOODLE PARA ESCONDER
+========================================== */
+#region-main div h2 {
+	display:none;
+}
+
+.box.generalbox.book_content h3,.box.generalbox.book_content h4,#region-main div h3,pageintro {
+	display:none;
+}
+
+#region-main div .modified {
+	display:none;
+}
+
+.navtop {
+	display:none;
+}
+
+.navbottom {
+	display:none;
+}
+
+#region-main .completionprogress {
+	float:none;
+}
+
+/**/
+.remodal {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    transform: translate3d(0, 0, 0);
+    color: #fff;
+    background: #A46087;
+}
+
+.remodal-confirm, .remodal-cancel {
+    font: inherit;
+    display: inline-block;
+    overflow: visible;
+    min-width: 110px;
+    margin: 1.3rem 0;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: initial;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+
+.remodal-close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: visible;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.2s;
+    text-decoration: none;
+    color: #FFF;
+    border: 0;
+    outline: 0;
+    background: rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.remodal-confirm {
+    color: #830051;
+    background: #FFF;
+}
+
+.remodal-confirm:hover, .remodal-confirm:focus {
+    background: #830051;
+    color: #fff;
+    text-decoration: none;
+}
+
+.remodal .izquierda-pops {
+    background: #830051;
+    color: #fff;
+    padding: 1rem;
+    width: auto;
+    text-align: center;
+}
+
+.remodal .izquierda-pops .izq {
+    display: inline-block;
+    width: 35%;
+    padding-right: 0.8rem;
+    border-right: 1px solid #fff;
+    margin-right: 0.8rem;
+}
+
+.remodal .izquierda-pops .der {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.remodal .izquierda-pops .izq div:nth-child(1) {
+    font-size: 1.4em;
+    line-height: 1.1em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.remodal .izquierda-pops .izq div:nth-child(2) {
+    font-style: italic;
+    font-size: 1.2em;
+  text-align: right;
+}
+
+.remodal .izquierda-pops .izq div:nth-child(3) {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.remodal .izquierda-pops .der div:nth-child(1) {
+    font-size: 1.4em;
+    line-height: 1.1em;
+    text-align: left;
+}
+
+.remodal .izquierda-pops .der div:nth-child(2) {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.remodal .derecha-pops {
+    padding: 1rem;
+    width: 88%;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 1em;
+    border-bottom: 1px solid #FFF;
+    margin: auto;
+}
+
+.remodal .derecha-pops .imagen {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.remodal .derecha-pops .imagen img {
+    height: auto;
+    width: 5rem;
+}
+
+.modal-POPS {
+    text-align: center;
+}
+
+.modal-POPS .boton-POPS{
+  
+}
+
+.modal-POPS .boton-POPS a:hover{
+opacity:0.4;
+}
+
+.modal-POPS .boton-POPS a img {
+    height: auto;
+    max-width: 20rem;
+}
+
+/* ==========================================
+	shepherd modals
+========================================== */
+.shepherd-active header, .shepherd-active #page{
+      /*background: rgba(0,0,0,0.3);*/
+      opacity:0.3;
+}
+
+
+
+.shepherd-enabled {
+  opacity:1;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content {
+    border-radius: 0px;
+    position: relative;
+    font-family: inherit;
+    background: #A46087;
+    color: #444;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 30px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 30px 0px rgba(0,0,0,0.3);
+}
+
+.shepherd-element.shepherd-theme-arrows {
+    max-width: 33rem;
+    max-height: 100%;
+    z-index: 1000000;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text>p{
+  display:none;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text>div{
+  display:inline-block;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text .izquierda-pops {
+    background: #830051;
+    color: #fff;
+    padding: 1rem;
+    width: 40%;
+    text-align: right;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text .izquierda-pops div:nth-child(1) {
+    font-size: 1.4em;
+    line-height: 1.1em;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text .izquierda-pops div:nth-child(2) {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text .izquierda-pops div:nth-child(3) {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text .derecha-pops {
+    color: #fff;
+    padding: 1rem;
+    width: 60%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1.1em;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content footer {
+    padding: 0 1em 1em;
+    position: absolute;
+    right: 0;
+    bottom: -0.1rem;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content footer .shepherd-buttons li .shepherd-button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2.9px;
+    cursor: pointer;
+    border: 0;
+    margin: 0 .5em 0 0;
+    font-family: 'Amiri',serif;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 0.9em;
+    line-height: 0.5;
+    padding: 0.7rem;
+    background: #FFF;
+    color: #830051;
+}
+
+.shepherd-element.shepherd-theme-arrows.shepherd-element-attached-bottom.shepherd-element-attached-center .shepherd-content:before {
+    top: 100%;
+    left: 50%;
+    margin-left: -16px;
+    border-top-color: #A46087;
+}
+
+.shepherd-element.shepherd-theme-arrows.shepherd-element-attached-top.shepherd-element-attached-center .shepherd-content:before {
+    bottom: 100%;
+    left: 50%;
+    margin-left: -16px;
+    border-bottom-color: #A46087;
+}
+
+.shepherd-element.shepherd-theme-arrows.shepherd-element-attached-right.shepherd-element-attached-middle .shepherd-content:before {
+    left: 100%;
+    top: 50%;
+    margin-top: -16px;
+    border-left-color: #A46087;
+}
+
+.shepherd-element.shepherd-theme-arrows.shepherd-element-attached-left.shepherd-element-attached-middle .shepherd-content:before {
+    right: 100%;
+    top: 50%;
+    margin-top: -16px;
+    border-right-color: #A46087;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text {
+    padding: 0em;
+}
+
+.shepherd-element.shepherd-theme-arrows .shepherd-content .shepherd-text>p{
+  display:none;
+}
+
+/* ==========================================
+	window modal
+========================================== */
+	.remodal-overlay.without-animation.remodal-is-opening,
+	.remodal-overlay.without-animation.remodal-is-closing,
+	.remodal.without-animation.remodal-is-opening,
+	.remodal.without-animation.remodal-is-closing,
+	.remodal-bg.without-animation.remodal-is-opening,
+	.remodal-bg.without-animation.remodal-is-closing {
+	animation: none;
+}
+
+/* ==========================================
+	GENERALES DEL CURSO
+========================================== */
+.contenedor-curso {
+	font-family:'Catamaran',sans-serif;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:OptimizeLegibility;
+	-moz-osx-font-smoothing:grayscale;
+	text-align:justify;
+	font-size:17px;
+	line-height:24px;
+	font-weight:400;
+	color:#3c4242;
+}
+
+.contenedor-curso .clean-float {
+	clear:both;
+}
+
+.contenedor-curso hr {
+	border-top: 1px solid #cbcbcb;
+	border-bottom: none;
+	border-let: none;
+	border-right: none;
+}
+
+.contenedor-curso .banner img {
+	width:100%;
+	height:auto;
+}
+
+.contenedor-curso .imagen-formulas-matematicas{
+	display: block;
+	margin: auto;
+}
+
+.contenedor-curso p {
+	margin:1rem 0;
+}
+
+.contenedor-curso ul,.contenedor-curso ol {
+	font-size:17px;
+	line-height:24px;
+}
+
+.contenedor-curso .listado-letras li,.contenedor-curso .listado-letras li{
+	list-style-type: lower-latin;
+}
+
+.contenedor-curso ul.interno,.contenedor-curso ol.interno {
+	margin:-.5rem 0 .4rem 2.6rem;
+}
+
+.contenedor-curso ul li,.contenedor-curso ol li {
+	line-height:24px;
+}
+
+.summary .contenedor-curso a {
+	font-family:'Amiri',serif;
+	text-decoration:none;
+	font-size:17px;
+}
+
+.contenedor-curso a {
+	font-family:'Amiri',serif;
+	text-decoration:underline;
+	font-size:17px;
+}
+
+.contenedor-curso .titulares-menu {
+	font-family:'Amiri',serif;
+	text-align:center;
+}
+
+#region-main .summary .contenedor-curso .boton-entrar {
+	font-family:'Amiri',serif;
+	text-align:center;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #830051;
+	background-repeat:no-repeat;
+	background-position:90%;
+	color:#fff;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:14px;
+	padding:.3rem 1.4rem .3rem .6rem;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#region-main .contenedor-curso .boton-entrar {
+	font-family:'Amiri',serif;
+	text-align:center;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #830051;
+	background-repeat:no-repeat;
+	background-position:90%;
+	color:#fff;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:14px;
+	padding:.3rem 1.4rem .3rem .6rem;
+	text-decoration: none;
+}
+
+#region-main ul.topics .content .summary .contenedor-curso .boton-entrar:hover {
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #bf6fa2;
+	background-repeat:no-repeat;
+	background-position:90%;
+	color:#fff;
+	text-decoration:none;
+}
+
+#region-main .contenedor-curso .boton-entrar:hover {
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/flecha-boton-entrar.svg) #bf6fa2;
+	background-repeat:no-repeat;
+	background-position:90%;
+	color:#fff;
+	text-decoration:none;
+}
+
+.contenedor-curso .volver {
+	display:block;
+	text-align:center;
+	margin:1rem auto;
+}
+
+#region-main .contenedor-curso .boton-volver {
+	font-family:'Amiri',serif;
+	text-align:center;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #830051;
+	background-repeat:no-repeat;
+	background-position:97%;
+	color:#fff;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:14px;
+	padding:.3rem 1.8rem .3rem .6rem;
+	text-decoration: none;
+}
+
+#region-main .contenedor-curso .boton-volver:hover {
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/volver.svg) #bf6fa2;
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+
+.contenedor-curso .cabezote {
+	margin:1rem 0;
+}
+
+.contenedor-curso .cabezote #menu {
+	display:inline-block;
+	    position: relative;
+    z-index: 10;
+}
+
+.contenedor-curso .cabezote header {
+	font-size:24px;
+	font-weight:600;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	border-top:2px solid #A46087;
+	width:89%;
+	background:#A46087;
+	padding:.6rem;
+	color: #ffffff;
+}
+
+/* ==========================================
+	MENU TEMAS PAGINA INICIAL
+========================================== */
+.contenedor-curso .menu-temas {
+	text-align:center;
+	    z-index: 0;
+    display: block;
+    position: relative;
+}
+
+.contenedor-curso .menu-temas .botones {
+	background:#f8f8f8;
+	width:20rem;
+/*min-height: 10rem;*/
+	vertical-align:top;
+	display:inline-block;
+	margin:1rem;
+	padding:2rem;
+}
+
+.contenedor-curso .menu-temas .titulo {
+	font-family:'Amiri',serif;
+	font-size:20px;
+	line-height:20px;
+	border-bottom:1px solid #830051;
+	padding-bottom:.8rem;
+}
+
+.contenedor-curso .menu-temas .titulo img {
+	margin-right:.5rem;
+	vertical-align:text-top;
+}
+
+.contenedor-curso .menu-temas .vinculo {
+	margin:1rem 0;
+}
+
+#region-main .summary .contenedor-curso .menu-temas .vinculo .boton {
+	text-decoration:none;
+	color:#3c4242;
+	font-family:'Catamaran',sans-serif;
+	font-weight:400;
+}
+
+#region-main .contenedor-curso .menu-temas .vinculo .boton {
+	text-decoration:none;
+	color:#3c4242;
+	font-family:'Catamaran',sans-serif;
+	font-weight:400;
+}
+
+/* ==========================================
+	MENU TEMAS PAGINA INTERNA CURSOS
+========================================== */
+.contenedor-curso .menu-temas {
+	text-align:center;
+}
+
+.contenedor-curso .menu-temas .botones-tema {
+	background:#f8f8f8;
+	width:30rem;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	padding:1rem;
+	margin:1rem;
+}
+
+.contenedor-curso .menu-temas .botones-tema .icono {
+	float:left;
+	margin-top:3%;
+	width:4rem;
+}
+
+.contenedor-curso .menu-temas .botones-tema .icono img {
+	width:50px;
+	height:auto;
+}
+
+.contenedor-curso .menu-temas .botones-tema .info {
+	float:left;
+	max-width:24rem;
+	padding-left:1rem;
+	border-left:1px solid #830051;
+}
+
+.contenedor-curso .menu-temas .botones-tema .info .titulo {
+	border-bottom:none;
+	padding-bottom:0;
+	font-size:23px;
+}
+
+.contenedor-curso .menu-temas .botones-tema .info .vinculo {
+	margin:.5rem 0;
+}
+
+.contenedor-curso .menu-temas .botones-tema .info #entrar1 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar2 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar3 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar4 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar5 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar6 .boton-entrar,.contenedor-curso .menu-temas .botones-tema .info #entrar7 .boton-entrar {
+}
+
+/* ==========================================
+	FOOTER
+========================================== */
+.contenedor-curso .footer {
+	background:#3c4242;
+	padding:1rem;
+	color:#fff;
+	margin-top:1rem;
+}
+
+.contenedor-curso .footer .mapa {
+	padding:0 1rem;
+	display:inline-block;
+	width:21rem;
+	vertical-align:top;
+}
+
+.summary .contenedor-curso .footer .mapa .boton {
+	font-family:'Amiri',serif;
+	display:inline-block;
+	padding:.4rem .6rem .4rem 1.9rem;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/mapa.svg) #fff;
+	background-repeat:no-repeat;
+	background-position:9% 42%;
+	color:#3c4242;
+	font-weight:bolder;
+}
+
+.contenedor-curso .footer .mapa .boton {
+	font-family:'Amiri',serif;
+	display:inline-block;
+	padding:.4rem .6rem .4rem 1.9rem;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/mapa.svg) #fff;
+	background-repeat:no-repeat;
+	background-position:9% 42%;
+	color:#3c4242;
+	font-weight:bolder;
+}
+
+.contenedor-curso .footer .modulos {
+	padding:0 1rem;
+	display:inline-block;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	width:auto;
+	vertical-align:top;
+}
+
+#region-main .summary .contenedor-curso .footer .modulos .boton {
+	font-family:'Amiri',serif;
+	display:inline-block;
+	padding:.4rem .6rem .4rem 1.9rem;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/modulos.svg) #fff;
+	background-repeat:no-repeat;
+	background-position:9% 42%;
+	color:#3c4242;
+	font-weight:bolder;
+}
+
+#region-main .contenedor-curso .footer .modulos .boton {
+	font-family:'Amiri',serif;
+	display:inline-block;
+	padding:.4rem .6rem .4rem 1.9rem;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/modulos.svg) #fff;
+	background-repeat:no-repeat;
+	background-position:9% 42%;
+	color:#3c4242;
+	font-weight:bolder;
+}
+
+.contenedor-curso .footer .modulos .listado-links {
+	margin:1rem 1.4rem;
+}
+
+.contenedor-curso .footer .modulos .listado-links li {
+	list-style-type:none;
+	position:relative;
+	text-align:left;
+}
+
+.contenedor-curso .footer .modulos .listado-links li:before {
+	list-style-type:none;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/modulos-links.svg);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:12px;
+	height:12px;
+	content:"";
+	left:-3%;
+	top:18%;
+}
+
+#region-main .contenedor-curso .footer .modulos .listado-links li a {
+	color:#fff;
+	text-decoration: none;
+}
+
+#region-main .contenedor-curso .footer .modulos .listado-links li a:hover {
+	text-decoration:underline;
+}
+
+.contenedor-curso .footer .inicio {
+	display:inline-block;
+	width:4.8rem;
+	vertical-align:top;
+	padding:0 1rem;
+	-webkit-transform:translateY(-60%);
+	-ms-transform:translateY(-60%);
+	transform:translateY(60%);
+}
+
+#region-main ul.topics .content .summary .contenedor-curso .footer .inicio a {
+	display:block;
+	padding:.4rem .8rem;
+	background:#fff;
+	color:#3c4242;
+	font-weight:bolder;
+	text-align:center;
+}
+
+#region-main .contenedor-curso .footer .inicio a {
+	display:block;
+	padding:.4rem .8rem;
+	background:#fff;
+	color:#3c4242;
+	font-weight:bolder;
+	text-align:center;
+}
+
+#region-main ul.topics .content .summary .contenedor-curso .footer .inicio a:hover span {
+	text-decoration:underline;
+}
+
+.contenedor-curso .footer .inicio a:hover span {
+	text-decoration:underline;
+}
+
+.contenedor-curso .footer .inicio a span {
+	border-top:1px solid #3c4242;
+	margin-top:.3rem;
+	display:inline-block;
+}
+
+/* ==========================================
+	MENU PAGINAS INTERNAS
+========================================== */
+.contenedor-curso .menu-temas-interno {
+	text-align:center;
+	border-top:1px solid #3c4242;
+	border-bottom:1px solid #3c4242;
+	padding:1rem 0;
+	margin:2rem 0;
+	display:block;
+}
+
+.contenedor-curso .menu-temas-interno .botones-tema {
+	text-align:left;
+	display:inline-block;
+	border:1px solid #3c4242;
+	margin:.5rem;
+	padding:.3rem 2rem .3rem .3rem;
+	background:url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos.svg);
+	background-repeat:no-repeat;
+	background-size:1.1rem;
+	background-position:97%;
+}
+
+#region-main .contenedor-curso .menu-temas-interno .botones-tema .boton {
+	color:#3c4242;
+	text-decoration:none;
+}
+
+/* ==========================================
+	CONTENIDO
+========================================== */
+.contenedor-curso .contenido {
+	padding:0 2%;
+}
+
+.contenedor-curso .contenido .resaltado-texto {
+	padding:2%;
+	margin: 2rem 0;
+	border: 10px solid #4bd4ea;
+	z-index: -1;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.contenedor-curso .contenido h4 {
+	font-family:'Amiri',serif;
+}
+
+.contenedor-curso .galeria {
+	margin:1rem auto;
+	display:block;
+	text-align:center;
+	position: relative;
+	z-index: 1;
+}
+
+.contenedor-curso .galeria a {
+	background: rgba(255,255,255,0.01) url(/diseno/sitio_moodle/lightbox/source/hover_icono_galerias_normal.svg) no-repeat center;
+	max-width:50%!important;
+	margin:auto;
+	height:auto;
+	z-index:10;
+	display:block;
+	text-align:center;
+}
+
+.contenedor-curso .galeria a:hover {
+	content:"";
+	background:rgba(134,154,167,0.7) url(/diseno/sitio_moodle/lightbox/source/hover_icono_galerias.svg) no-repeat center;
+	width:auto;
+	height:auto;
+	z-index:10;
+	display:block;
+}
+
+.contenedor-curso .galeria img {
+	z-index:-1;
+	position:relative;
+	max-width:100%!important;
+	height:auto;
+	box-shadow:0 0 10px rgba(0,0,0,0.4);
+	text-align:center;
+}
+
+/*tabla*/
+.contenedor-curso .tabla {
+	border-width:thin;
+	border-style:solid;
+}
+
+.contenedor-curso .tabla .titulo {
+	text-align:center;
+	font-weight:600;
+	font-size:17px;
+}
+
+.contenedor-curso .tabla td {
+	border-width:thin;
+	border-style:solid;
+	padding:.6rem;
+	text-align: left;
+}
+
+.contenedor-curso .tabla .referencia {
+	text-align:center;
+	font-style:italic;
+	font-weight:600;
+}
+
+/* ==========================================
+	Estilos video
+========================================== */
+.contenedor-curso .videos-contenedor{
+	width: 95%;
+margin: auto;
+text-align: center;
+}
+
+.contenedor-curso .videos-contenedor iframe{
+	border: none;
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+min-width:52rem;
+height: 28rem;
+}
+
+
+/* ==========================================
+	Estilos Responsive
+========================================== */
+@media (max-width: 1331px) {
+	.contenedor-curso .footer .mapa {
+		width:100%;
+		display:block;
+		padding:0;
+	}
+	
+	.contenedor-curso .footer .modulos {
+		border-right:none;
+		width:100%;
+		display:block;
+		border-left:none;
+		padding:1rem 0 0;
+		border-top:1px solid #fff;
+		border-bottom:1px solid #fff;
+	}
+	
+	.contenedor-curso .footer .modulos .listado-links li:before {
+		left:-1.2rem;
+	}
+	
+	.contenedor-curso .footer .inicio {
+		display:block;
+		-webkit-transform:translateY(-0%);
+		-ms-transform:translateY(-0%);
+		transform:translateY(0%);
+		padding:1rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.contenedor-curso .cabezote header {
+		width:86%;
+	}
+}
+
+@media (max-width: 1223px) {
+	.contenedor-curso .cabezote header {
+		width:81%;
+	}
+	.contenedor-curso .videos-contenedor iframe{
+		min-width:42rem;
+		height: 24rem;
+	}
+}
+
+@media (max-width: 1039px) {
+	.contenedor-curso .cabezote header {
+		width:80%;
+	}
+	.contenedor-curso .videos-contenedor iframe{
+		min-width:32rem;
+		height: 19rem;
+	}
+}
+
+@media (max-width: 901px) {
+	.contenedor-curso .menu-temas .botones-tema{
+		width: auto;
+		display: block;
+	}
+}
+
+@media (max-width: 879px) {
+	.contenedor-curso .cabezote header {
+		width:75%;
+	}
+}
+
+@media (max-width: 598px) {
+	.contenedor-curso .menu-temas .botones-tema .info{
+		max-width: 70%;
+	}
+	.contenedor-curso .videos-contenedor iframe{
+		min-width:22rem;
+		height: 14rem;
+	}
+}
+
+@media (max-width: 568px) {
+	.contenedor-curso .menu-temas .botones {
+		    width: 90%;
+    margin: 1rem 0;
+    padding: 1rem;
+	}
+}
+
+@media (max-width: 548px) {
+	.contenedor-curso .cabezote header {
+		width:71%;
+	}
+}
+
+@media (max-width: 482px) {
+	.contenedor-curso .cabezote header {
+		width:100%;
+	}
+	.contenedor-curso .videos-contenedor iframe{
+		min-width: initial;
+		width: 100%;
+		height: initial;
+	}
+}

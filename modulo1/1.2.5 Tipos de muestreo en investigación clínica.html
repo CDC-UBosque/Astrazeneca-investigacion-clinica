@@ -1,0 +1,68 @@
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-modulo-uno.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso" id="modulouno">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-modulo-1-tema-2.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header class="wow animated fadeIn">1.2.5. Tipos de muestreo en investigación clínica</header>
+	</div>
+	
+	<div class="contenido wow animated fadeIn">
+		
+		<p>Con frecuencia el número de personas que cumplen con los criterios de selección es demasiado grande entonces es necesario seleccionar una muestra de la población para  estudio .Hay diversos métodos de selección de muestra (a este proceso se le conoce como muestreo), los cuales son probabilísticos y no probabilísticos) dependiendo de la intervención o nó del azar en el proceso:</p>
+		
+		<p>Muestreos no probabilísticos: seleccionan los elementos de la muestra en forma tal que en lugar del azar en la elección interviene algún criterio determinado que permita realizar el muestreo (generalmente informal). Los individuos pertenecientes a la población tienen diferente y desconocida probabilidad de ser seleccionados, lo que impide incluir modelos de probabilidad. Por esto producen resultados sesgados por no representatividad de la muestra. Uno de los métodos más difundidos es el muestreo de conveniencia o incidental, el criterio para la selección de los individuos es la accesibilidad a ellos.</p>
+		
+		<p>Muestreos probabilísticos: 1. Muestreo aleatorio simple: método de selección de una muestra de tamaño n de un conjunto de N unidades, donde n ≤ N y donde cada una de las M muestras distintas posibles tiene la misma probabilidad de selección.</p>
+		
+		<p>Se numeran de las unidades de 1 a N. Posteriormente se extrae en forma aleatoria una serie de n números entre 1 y N. Esta estrategia requiere la identificación de todos los elementos pertenecientes a la Población en estudio. Una forma de implementarlo es mediante el ordenamiento en una lista de los pacientes elegibles mediante algún identificador (número secuencial o número al ingreso),  seguidamente se generará una serie aleatoria de números, en relación de uno a uno con la serie previa. A continuación se ordenará a las unidades por esta última en forma creciente, luego de lo cual se seleccionaran a las primeras n unidades en el orden de la lista. Esta última selección corresponde a una muestra aleatoria simple.</p>
+		
+		<p>Muestreo aleatorio estratificado: Cuando la población en estudio está compuesta por diferentes grupos de elementos y se desea que cada uno de los grupos esté proporcionalmente representado dentro de la muestra se efectúa un muestreo aleatorio estratificado. En el muestreo estratificado, la población de N unidades se divide primero en subpoblaciones de N1, N2, ..., NL unidades, respectivamente. Estas subpoblaciones, son excluyentes entre si y en su conjunto comprenden a toda la población y se toma una muestra aleatoria simple en cada estrato.</p>
+		
+		<section class="resaltado-texto wow animated fadeInRight">
+			<p>A partir de los valores obtenidos en la muestra (denominados estadísticos) se pretende conocer los valores de la Población (denominados Parámetros)que difícilmente son los mismos pero si deberían ser cercanos, este proceso es la estimación de parámetros que puede realizarse de tres maneras:</p>
+			<ol>
+				<li>Puntual: asume que el estadístico es igual al parámetro, esta manera es muy débil y riesgosa.</li>
+				<li>Por prueba de hipótesis: aparece la temida <i>p</i>, en resumen permite conocer la probabilidad de que los estadísticos hayan sido obtenidos por casualidad con lo cual el parámetro no sería confiable.</li>
+				<li>Por Intervalos de Confianza: que informa el rango de valores entre los que se encuentra el parámetro a partir del estadístico y con un porcentaje de seguridad conocida (llamada confianza)</li>
+			</ol>
+		</section>
+		
+	</div>
+	
+	<div id="menu-temas-interno" class="wow animated fadeInUp"></div>
+	
+	<div id="volver" class="volver wow animated fadeInUp"></div>
+	
+	<div id="footer" class="wow animated fadeIn"></div>
+	
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/modulo1/menu-modulo-uno-tema-dos-interno.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->

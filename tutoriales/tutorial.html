@@ -1,0 +1,222 @@
+<!-- ================== guide ================== -->
+<link rel="stylesheet" href="/diseno/sitio_moodle/shepherd/css/shepherd-theme-arrows.css" />
+<script src="/diseno/sitio_moodle/shepherd/js/tether.js"></script>
+<script src="/diseno/sitio_moodle/shepherd/js/shepherd.js"></script>
+<!-- ================== fin guide ================== -->
+
+<!-- ================== css ================== -->
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="/diseno/cursos/Investigacion-Clinica/css/estilos-menu.css">
+<!-- ================== fin css ================== -->
+
+<!-- ================== script ================== -->
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/script.js"></script>
+<!-- ================== script ================== -->
+
+<!-- ================== animate scroll ================== -->
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- ================== fin animate scroll ================== -->
+
+<!-- ================== contenido ================== -->
+<div class="contenedor-curso">
+	
+	<div class="banner wow animated fadeIn"><img src="/diseno/cursos/Investigacion-Clinica/imagenes/banners/banner-principal.jpg" alt="banner curso lectura"/></div>
+	
+	<div class="cabezote">
+		<div id="menu" class="wow animated fadeInLeft"></div>
+		<header id="cabezote-titulo" class="wow animated fadeIn">Contenidos del curso</header>
+	</div>
+	
+	<div class="menu-temas">
+		<div class="botones wow animated fadeIn">
+			<div class="titulo">Módulo 0</div>
+			<div class="vinculo" id="link0"></div>
+			<div id="entrar0"></div>
+		</div>
+		<div class="botones wow animated fadeIn">
+			<div class="titulo">Módulo 1</div>
+			<div class="vinculo" id="link1"></div>
+			<div id="entrar1"></div>
+		</div>
+		<div class="botones wow animated fadeIn">
+			<div class="titulo">Módulo 2</div>
+			<div class="vinculo" id="link2"></div>
+			<div id="entrar2"></div>
+		</div>
+		<div class="botones wow animated fadeIn">
+			<div class="titulo">Módulo 3</div>
+			<div class="vinculo" id="link3"></div>
+			<div id="entrar3"></div>
+		</div>
+		<div class="botones wow animated fadeIn">
+			<div class="titulo">Módulo 4</div>
+			<div class="vinculo" id="link4"></div>
+			<div id="entrar4"></div>
+		</div>
+	</div>
+	
+	<div class="wow animated fadeIn" id="footer"></div>
+	
+	<div id="test"></div>
+</div>
+<!-- ================== contenido ================== -->
+
+<!-- ================== script ================== -->
+<script src="/diseno/cursos/Investigacion-Clinica/js/menus.js" type="text/javascript"></script>
+<script src="/diseno/cursos/Investigacion-Clinica/js/menu-inicio.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	(function() {
+  var init, setupShepherd;
+
+  init = function() {
+    return setupShepherd();
+  };
+
+  setupShepherd = function() {
+    var shepherd;
+    shepherd = new Shepherd.Tour({
+      defaults: {
+        classes: 'shepherd-element shepherd-open shepherd-theme-arrows POPS',
+        showCancelLink: false
+      }
+    });
+    shepherd.addStep('step1', {
+      text: ['<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>El banner superior le indicará siempre en qué módulo se encuentra.</div></div>'],
+      attachTo: '.banner top',
+      classes: 'shepherd shepherd-open shepherd-theme-arrows shepherd-transparent-text POPS',
+      buttons: [
+        {
+          text: 'Salir',
+          classes: 'pops-salir',
+          action: shepherd.cancel
+        }, {
+          text: 'Siguiente',
+          action: shepherd.next,
+          classes: 'pops-botones'
+        }
+      ]
+    });
+    shepherd.addStep('step2', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>El botón de Menú le permitirá navegar por todo el curso desde cualquier módulo o tema. Desde aquí se puede acceder a los demás temas y sus respectivos subtemas y a la página de inicio del curso.</div></div>',
+      attachTo: '#cssmenu right',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+     shepherd.addStep('step3', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>El banner del título le informará sobre el tema del cuál se está hablando en la sección actual.</div></div>',
+      attachTo: '#cabezote-titulo top',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+    shepherd.addStep('step4', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>En esta sección encontrará los temás referentes a cada módulo, para comenzar debe hacer click en el botón entrar. Se recomienda seguir las actividades en su respectivo orden.</div></div>',
+      attachTo: '.menu-temas .botones right',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+    shepherd.addStep('step5', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>Durante todo el curso se encontrará con este bloque de información. Desde aquí también se puede navegar por la plataforma a los diferentes módulos y al inicio del curso.</div></div>',
+      attachTo: '.footer right',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+    shepherd.addStep('step6', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>Interactuando con este menú de módulos también es posible navegar por los módulos del curso (Tiene un funcionamiento similar el menú superior).</div></div>',
+      attachTo: '.footer .modulos top',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+    shepherd.addStep('step7', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>Interactuando con el botón de inicio puede ir directamente al Home del curso desde cualquier lugar.</div></div>',
+      attachTo: '.footer .inicio top',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Siguiente',
+		classes: 'pops-botones',
+          action: shepherd.next
+        }
+      ]
+    });
+    shepherd.addStep('step8', {
+      text: '<div class="izquierda-pops"><div>Curso Virtual de Investigación Clínica</div><div>Instrucciones de uso de la plataforma</div></div><div class="derecha-pops"><div>Recuerde los elementos previamente vistos, si desea volver a repetir el tutorial puede hacerlo ingresando desde el menú y luego dando click en Tutorial de uso del curso.</div></div>',
+      attachTo: '.banner top',
+      buttons: [
+        {
+          text: 'Atrás',
+          classes: 'pops-botones',
+          action: shepherd.back
+        }, {
+		text: 'Salir',
+		classes: 'pops-salir',
+          action: shepherd.next
+        }
+      ]
+    });
+    return shepherd.start();
+  };
+
+  $(init);
+
+}).call(this);
+</script>
+<!-- ================== fin script ================== -->
+
+<!-- ================== script animate scroll ================== -->
+<script>
+	new WOW().init();
+</script>
+<!-- ================== fin script animate scroll ================== -->

@@ -1,0 +1,54 @@
+/* ==========================================
+	CAMBIO COLOR MODULO 0
+========================================== */
+#modulocero.contenedor-curso .cabezote header{
+    border-color: #A46087 ;
+    background: #A46087 ;
+    color: #fff;
+}
+
+#modulocero.contenedor-curso .menu-temas-interno{
+  border-color:#A46087 ;
+}
+
+#modulocero.contenedor-curso .menu-temas-interno .botones-tema{
+      border: none;
+    background: #A46087     url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulocero.contenedor-curso .menu-temas-interno .botones-tema:hover {
+    background: #a81468 url(/diseno/cursos/Investigacion-Clinica/imagenes/iconos/links-internos-blanco.svg);
+    background-repeat: no-repeat;
+    background-size: 1.1rem;
+    background-position: 97%;
+}
+
+#modulocero.contenedor-curso .menu-temas-interno .botones-tema .boton{
+  color:#fff;
+}
+
+#modulocero.contenedor-curso .tabla{
+	border-color: #830051;
+}
+
+#modulocero.contenedor-curso .tabla .titulo{
+	background: #830051;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+#modulocero.contenedor-curso .tabla td{
+	border-color: #830051;
+}
+
+#modulocero.contenedor-curso .tabla .tabla-interna{
+	border-bottom: none;
+	border-right: none
+}
+
+#modulocero.contenedor-curso .contenido .resaltado-texto{
+border: 10px solid #830051;
+}

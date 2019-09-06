@@ -1,0 +1,3 @@
+$('#menu-temas').html('<div class="menu-temas-interno"> <div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98211">2.4.1. Estadística Inferencial</a> </div></div><div class="botones-tema"> <div class="vinculo"> <a class="boton" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98212">2.4.2. Variables aleatorias: discretas y continuas. Valor esperado y varianza</a> </div></div></div>');
+//
+$('#volver').html('<a class="boton-volver" href="//ubosquemoodle.unbosque.edu.co/moodle/mod/page/view.php?id=98210">Ítems Módulo 2 - Tema 4 |</a>')
